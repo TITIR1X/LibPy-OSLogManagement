@@ -1,0 +1,1 @@
+from OSLogManagement.OSLogManagement import os_log_parameters, show_last_log
