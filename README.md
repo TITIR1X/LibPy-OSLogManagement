@@ -8,7 +8,7 @@ Instalation:
 pip install OSLogManagement
 
     >>> from LogManagement import os_commands_regex
-    >>> ip_adress = os_commands_regex(os_command='ipconfig', regex_function='search', regex_parameters='IP Address.+: (\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})')
+    >>> ip_adress = os_commands_regex(os_command='ipconfig', regex_function='search', regex_parameters='IP Address.+: (\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})', export_log=True)
     >>> print(ip_adress)
     ['192.168.0.101']
 
