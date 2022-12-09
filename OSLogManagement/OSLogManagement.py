@@ -27,8 +27,9 @@ def os_log_parameters(os_command:str, regex_function:str, regex_parameters:str, 
     """
 
     assert regex_function in ['findall', 'search', 'split', 'sub'], f"No permitido regex_function '{regex_function}' \nValores válidos: 'findall', 'search', 'split', 'sub'"
-
-    os.system(f'{os_command} > ./last_log.txt')
+    
+    if export_log:
+        os.system(f'{os_command} > ./last_log.txt')
 
     if regex_function == 'findall':
         temp_log = open('./last_log.txt', 'r')
