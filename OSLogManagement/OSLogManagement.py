@@ -14,7 +14,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-def os_log_parameters(os_command:str, regex_function:str, regex_parameters:str, export_log=False):
+def os_log_parameters(os_command:str, regex_function:str, regex_parameters:str, export_log=True):
     """Allows you to use regular expressions to extract specific information from the log resulting from os.system() and store it in variables.
 
     Args:
