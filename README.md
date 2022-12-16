@@ -53,6 +53,5 @@ Useful content:
 
 - regex101.com -> build, test and debug regex
 
-- Tutorial práctico REGEX en español: https://www.youtube.com/watch?v=Mc2j8Q-MHB4&ab_channel=ThePyCoach -> credits: The PyCoach
-"# TITIR1X" 
-"# TITIR1X" 
+- Tutorial práctico REGEX en español: https://www.youtube.com/watch?v=Mc2j8Q-MHB4&ab_channel=ThePyCoach -> credits: The PyCoach 
+
