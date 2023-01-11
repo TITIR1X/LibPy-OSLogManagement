@@ -55,3 +55,5 @@ Useful content:
 
 - Tutorial práctico REGEX en español: https://www.youtube.com/watch?v=Mc2j8Q-MHB4&ab_channel=ThePyCoach -> credits: The PyCoach 
 
+- Generate regex code with ChatGPT: https://chat.openai.com/
+
